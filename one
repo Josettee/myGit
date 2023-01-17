@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vue.js" type="text\javascript" charset="UTF-8"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="box1">
+
+        <!--<img src="./img/登录界面.png" height="692" width="1520">-->
+
+        <div class="box11">
+            <tr>
+                <td class="td_left">
+                <select name="downlist" style="width: 120px; height: 31px;" >
+                    <option>简  体  中  文 </option>
+                    <option> English </option>    
+                </select></td>
+        </div>
+        <div class="box12">
+            <div class="img1">
+                <img src="./img/picture4.png" >
+            </div>
+            
+            <div class="no1">
+                <h3>账号登录</h3>
+            </div>
+            <div class="no2">
+                <h3>动态码登录</h3>
+            </div>
+            <div class="t1">
+                <div class="img2">
+                    <img src="./img/picture1.png" alt="#">
+                </div>
+                <div class="td_left11">
+                    <input type="text" style="height:55px; width: 290px;" name="name" placeholder="请输入学号/工号"> 
+                </div> 
+            </div>
+
+            <div class="t2">
+                <div class="img3">
+                    <img src="./img/picture2.png" alt="#">
+                </div>
+                <div class="td_left22">
+                    <input type="password" style="height: 55px; width: 290px;" name="pwd" placeholder="请输入密码">
+                </div>  
+            </div>
+
+            <div class="check1">
+                <div class="check2">
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="check3"><label for="seven">7天免登录</label></div>                
+            </div>
+
+            <div class="b1">
+                <button class="bu">登   录</button>
+            </div>
+
+            <div class="bot1">
+                <h5>忘记密码</h5>
+                <h5>账号申诉</h5>
+            </div>
+
+            <div class="bot2">
+                <h5>账号激活</h5>
+                <h5>账号申请</h5>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
